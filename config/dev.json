@@ -1,0 +1,16 @@
+{
+  "name": "Xsocks",
+  "level": "debug",
+  "inbound": {
+    "type": "socks5",
+    "address": "127.0.0.1",
+    "port": "100",
+    "users": {
+      "name": "1000",
+      "name2": "10002"
+    }
+  },
+  "outbound": {
+    "type": "freedom"
+  }
+}
